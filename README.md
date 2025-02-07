@@ -9,4 +9,4 @@ Luis Torres
 
 # Modelo Relacional
 
-![](https://github.com/DerekMazino/DevSpark/blob/main/DevSpark.jpg)
+![](https://github.com/DerekMazino/DevSpark/blob/develop/DevSpark.jpg)
