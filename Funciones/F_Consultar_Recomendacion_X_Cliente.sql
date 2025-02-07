@@ -4,7 +4,7 @@ BEGIN
     RETURN QUERY 
     SELECT 
         p.nombre, 
-        CAST(p.descripcion AS VARCHAR), -- Conversión explícita
+        CAST(p.descripcion AS VARCHAR),
         r.recomendacion
     FROM preferencias r
     JOIN productos p ON p.id_producto = r.id_producto

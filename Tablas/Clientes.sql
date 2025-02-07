@@ -6,7 +6,6 @@ CREATE TABLE Clientes (
     fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-
 COMMENT ON TABLE Clientes
   IS 'Tabla para el registro de los datos de clientes';
 
