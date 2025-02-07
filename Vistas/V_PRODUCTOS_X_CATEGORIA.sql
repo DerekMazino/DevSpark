@@ -1,3 +1,9 @@
+----------------------------------------------------------------------------
+--
+-- Vista con información de las preferencias por cliente.
+-- © DEVSPARK.2025-02-07.
+--
+-----------------------------------------------------------------------------
 CREATE OR REPLACE VIEW V_PRODUCTOS_X_CATEGORIA AS
 SELECT pro.id_producto
 ,	   pro.nombre nombre_producto

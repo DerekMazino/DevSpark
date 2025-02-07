@@ -1,3 +1,9 @@
+----------------------------------------------------------------------------
+--
+-- Tabla para el registro de los datos de categorias.
+-- © DEVSPARK.2025-02-07.
+--
+-----------------------------------------------------------------------------
 CREATE TABLE categorias (
     id_categoria SERIAL PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL

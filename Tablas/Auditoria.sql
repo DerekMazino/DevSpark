@@ -1,3 +1,9 @@
+----------------------------------------------------------------------------
+--
+-- Tabla para el registro de los datos de Auditoria (Actualización sobre las otras tablas)
+-- © DEVSPARK.2025-02-07.
+--
+-----------------------------------------------------------------------------
 CREATE TABLE Auditoria (
     Id_auditoria SERIAL PRIMARY KEY,
     accion VARCHAR(100) NOT NULL,

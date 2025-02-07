@@ -1,3 +1,9 @@
+----------------------------------------------------------------------------
+--
+-- Tabla para el registro de los datos de Preferencias por cliente.
+-- © DEVSPARK.2025-02-07.
+--
+-----------------------------------------------------------------------------
 CREATE TABLE Preferencias (
     id_preferencia SERIAL PRIMARY KEY,
     id_cliente INT NOT NULL,

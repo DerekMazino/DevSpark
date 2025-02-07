@@ -1,3 +1,9 @@
+----------------------------------------------------------------------------
+--
+-- Trigger de auditoria de la tabla Categorias.
+-- © DEVSPARK.2025-02-07.
+--
+-----------------------------------------------------------------------------
 CREATE OR REPLACE FUNCTION F_Categoria_AUD() 
 RETURNS TRIGGER AS $$
 BEGIN

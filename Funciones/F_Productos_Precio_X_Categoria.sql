@@ -1,3 +1,9 @@
+----------------------------------------------------------------------------
+--
+-- Función que permite obtener información de productos, filtrando por un rango de precios, categoria, limite de registros obtenidos y ordenamiento respecto al precio.
+-- © DEVSPARK.2025-02-07.
+--
+-----------------------------------------------------------------------------
 CREATE OR REPLACE FUNCTION F_Productos_Precio_X_Categoria(
     categoria_nombre VARCHAR, 
     precio_min NUMERIC DEFAULT 0, 

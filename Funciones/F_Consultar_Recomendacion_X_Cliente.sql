@@ -1,3 +1,9 @@
+----------------------------------------------------------------------------
+--
+-- Función que obtiene las recomendaciones para un determinado cliente.
+-- © DEVSPARK.2025-02-07.
+--
+-----------------------------------------------------------------------------
 CREATE OR REPLACE FUNCTION F_Consultar_Recomendacion_X_Cliente(cliente_id INTEGER)
 RETURNS TABLE(nombre VARCHAR, descripcion VARCHAR, recomendacion VARCHAR) AS $$
 BEGIN

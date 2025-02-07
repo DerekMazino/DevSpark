@@ -1,3 +1,9 @@
+----------------------------------------------------------------------------
+--
+-- Vista con información de las preferencias por cliente.
+-- © DEVSPARK.2025-02-07.
+--
+-----------------------------------------------------------------------------
 CREATE OR REPLACE VIEW V_CLIENTES_PREFERENCIAS AS
 SELECT cli.id_cliente
 ,	   cli.nombre nombre_cliente

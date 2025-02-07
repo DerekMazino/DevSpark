@@ -1,3 +1,9 @@
+----------------------------------------------------------------------------
+--
+-- Función que obtiene la descripción de un terminado producto.
+-- © DEVSPARK.2025-02-07.
+--
+-----------------------------------------------------------------------------
 CREATE OR REPLACE FUNCTION F_Descripcion_Producto(producto_id INTEGER)
 RETURNS TABLE(nombre VARCHAR, descripcion VARCHAR) AS $$
 BEGIN

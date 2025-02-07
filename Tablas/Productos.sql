@@ -1,3 +1,9 @@
+----------------------------------------------------------------------------
+--
+-- Tabla para el registro de los datos de Productos.
+-- © DEVSPARK.2025-02-07.
+--
+-----------------------------------------------------------------------------
 CREATE TABLE Productos (
     id_producto SERIAL PRIMARY KEY,
     nombre VARCHAR(255) NOT NULL,

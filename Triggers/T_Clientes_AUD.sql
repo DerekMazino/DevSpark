@@ -1,3 +1,9 @@
+----------------------------------------------------------------------------
+--
+-- Trigger de auditoria de la tabla clientes.
+-- © DEVSPARK.2025-02-07.
+--
+-----------------------------------------------------------------------------
 CREATE OR REPLACE FUNCTION F_Clientes_AUD() 
 RETURNS TRIGGER AS $$
 BEGIN
