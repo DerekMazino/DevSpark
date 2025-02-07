@@ -1,4 +1,4 @@
-INSERT INTO Productos (nombre, descripcion, marca, categoria_id, precio, stock, fecha_ingreso) VALUES
+INSERT INTO Productos (nombre, descripcion, marca, id_Categoria, precio, stock, fecha_ingreso) VALUES
 ('Dell XPS 13', 'Laptop ultradelgada con pantalla táctil de 13 pulgadas', 'Dell', 1, 1200.00, 10, '2024-02-10'),
 ('HP Spectre x360', 'Laptop convertible 2 en 1 con procesador i7', 'HP', 2, 1350.00, 5, '2024-02-15'),
 ('iPad Pro 12.9', 'Tablet con pantalla de 12.9 pulgadas y soporte para Apple Pencil', 'Apple', 3, 999.99, 15, '2024-03-05'),
